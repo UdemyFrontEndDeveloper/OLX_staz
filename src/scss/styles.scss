@@ -10,6 +10,13 @@
     box-sizing: border-box;
 }
 
+
+.main p {
+    display: none;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
 div.popup {
     position: absolute;
     top: 50%;
@@ -20,6 +27,7 @@ div.popup {
     background-color: white;
     text-align: center;
     font-size: 10px;
+    display: none;
 
     div.X {
         position: absolute;
@@ -27,6 +35,7 @@ div.popup {
         right: 0;
         color: black;
         font-size: 2em;
+        cursor: pointer;
     }
 
     h1 {
@@ -52,5 +61,14 @@ div.popup {
         border-radius: 5px;
         color: white;
         padding: 10px 70px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #fc888e;
+        }
     }
+
+
+
+
 }
